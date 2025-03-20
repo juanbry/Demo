@@ -1,0 +1,150 @@
+body {
+  background-color: #0a1f44;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  color: #ff6a00;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.container {
+  background-color: #112244;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(255, 106, 0, 0.3);
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+input, select {
+  padding: 6px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 13px;
+}
+
+button {
+  background-color: #ff6a00;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.3s;
+  margin-top: 8px;
+}
+
+button:hover {
+  background-color: #d55a00;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.cancel-button {
+  background-color: gray;
+}
+
+.cancel-button:hover {
+  background-color: darkgray;
+}
+
+.table-container {
+  width: 95%;
+  max-width: 1200px; 
+  background-color: #112244;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(255, 106, 0, 0.3);
+  margin-top: 15px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 13px; 
+}
+
+th, td {
+  padding: 8px; 
+  text-align: center;
+  border-bottom: 1px solid #ff6a00;
+  word-wrap: break-word;
+}
+
+th {
+  background-color: #ff6a00;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #214275;
+}
+
+tr:hover {
+  background-color: #1e3358;
+  color: white;
+}
+
+.status-pending {
+  color: #ffcc00;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.status-inprogress {
+  color: #00ccff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.status-completed {
+  color: #00ff00;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+select {
+  background-color: #112240;
+  color: white;
+  border: 1px solid #ff7300;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+select:hover {
+  background-color: #1e3358;
+}
